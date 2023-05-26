@@ -1,3 +1,16 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columnLeft {
+    width: 25%;
+}
+
+.columnRight {
+    width: 50%;
+}
+
 body {
     font-family: "Manrope", serif;
     font-weight: 200;
