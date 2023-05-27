@@ -13,7 +13,7 @@
 * Written only in simple HTML and CSS.
 
 ## Can I use it?
-* Fork? Sure, and drop me a message! Duplicate and name it as yours? No. 
+* Fork? Sure, and drop me a message! **Duplicate and name it as yours? No. **
   * I made all source code here available in public, evidencing my commitment to advocate for open data,
   * however, I deem creativity creditable and copyrighted. 
   * Feel free to refer to anything in this repo, critique, feedback – crowd wisdom can make things better! I'd love to hear your voice.
