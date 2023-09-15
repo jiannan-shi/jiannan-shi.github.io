@@ -19,7 +19,9 @@ h2 {
     font-weight: 300;
     font-size: xx-large;
     margin-bottom: 10px;
-    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5px;
 }
 
 
@@ -34,10 +36,48 @@ hLabel {
     font-style: italic;
     font-weight: 100;
     font-size: smaller;
+    padding-bottom: 5%;
 }
 
+list {
+    margin-right: 10px;
+}
 
+.subtitle {
+    font-family: "Bitter", serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
+.square_subtitles {
+    margin-top: 10px;
+    font-family: "IBM Plex Mono", sans-serif;
+    letter-spacing: -1px;
+    font-weight: 200;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#text_square {
+
+    text-align: center;
+    vertical-align: middle;
+    background-color: grey;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#text_square:hover {
+    background-color: yellow;
+    color: black;
+}
 
 /* Body styles */
 body {
@@ -50,18 +90,33 @@ body {
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.read_more {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 200;
+    font-size: smaller;
+    color: #333;
+    text-decoration: none;
+}
+
+.read_more:hover {
+    background-color: yellow;
 }
 
 /* Header styles */
 header {
-    /* background-color: #333; */
-    padding: 10px 0;
+    max-width: 960px;
+    margin: auto;
 }
 
 
 nav {
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 10px;
 }
 
 nav a {
@@ -104,17 +159,35 @@ fn {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 40%;
+    padding: 10px;
+}
+
+.columnImg {
+    float: left;
+    width: 20%;
     padding: 10px;
 }
 
 
-.column img {
+.columnImg img {
     width: 100%;
     object-fit: cover;
     aspect-ratio: 1/1;
-
 }
+
+.columnEvent {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.columnEvent img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
+
 
 p {
     margin-bottom: 20px;
@@ -122,8 +195,8 @@ p {
 
 .content {
     /*  float: left; */
-    width: 90%;
-    padding-left: 10%;
+    width: 100%;
+    padding-left: 0;
 }
 
 
@@ -136,6 +209,16 @@ a {
 }
 
 a:hover {
+    background-color: yellow;
+}
+
+hyperlink {
+    font-weight: 200;
+    color: #333;
+    text-decoration: underline;
+}
+
+hyperlink:hover {
     background-color: yellow;
 }
 
