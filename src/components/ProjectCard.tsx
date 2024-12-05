@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface ProjectCardProps {
   title: string;
@@ -32,11 +32,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="space-y-3">
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-xl font-light">{title}</h3>
-          <span className="text-sm text-gray-500 whitespace-nowrap">{duration}</span>
+          <span className="text-sm text-gray-500 whitespace-nowrap">
+            {duration}
+          </span>
         </div>
-        <span className="inline-block text-sm text-gray-500">
-          {category}
-        </span>
+        <span className="inline-block text-sm text-gray-500">{category}</span>
         <p className="text-gray-600">{description}</p>
         {links.length > 0 && (
           <div className="flex flex-wrap gap-4 pt-2">
