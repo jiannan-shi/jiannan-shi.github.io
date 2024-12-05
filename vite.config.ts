@@ -6,7 +6,7 @@ export default defineConfig({
 
 
   plugins: [react()],
-  base: './',
+  base: '/jiannan-shi.github.io/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
