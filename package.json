@@ -1,5 +1,6 @@
 {
   "name": "jiannan-shi-portfolio",
+  "homepage": "https://jiannan-shi.github.io/jiannan-shi.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,14 +9,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-
-
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist"
-
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "lucide-react": "^0.344.0",
     "p5": "^1.9.1",
     "react": "^18.3.1",
