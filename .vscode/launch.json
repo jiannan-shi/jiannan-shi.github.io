@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Vite App",
+            "program": "${workspaceFolder}/${input:programPath}",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "dev"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "programPath",
+            "description": "Path to the entry point of your application"
+        }
+    ]
+}
