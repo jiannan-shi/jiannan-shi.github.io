@@ -4,7 +4,6 @@ import CategoryFilter from "../components/CategoryFilter";
 import ProjectGrid from "../components/ProjectGrid";
 import { projects } from "../data/projects";
 import { Category } from "../types";
-import { Color } from "p5";
 
 const Home: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<Category | "All">("All");
